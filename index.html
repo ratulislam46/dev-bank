@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Board</title>
+    <!-- daisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="container mx-auto">
+    <header>
+        <!-- navbar section -->
+        <nav>
+            <div class="navbar bg-gray-100 mt-6 p-5 flex justify-between rounded-lg shadow-md">
+                <div class="">
+                    <img  src="assets/logo.png" alt="">
+                  <div class="flex">
+                    <h1 class="btn btn-ghost text-2xl">Dev  <span class="font-bold">Board</span></h1>
+                  </div>
+                </div>
+                <div class="gap-3">
+                    <div class="flex bg-white w-20 h-10 items-center justify-center rounded-lg">
+                        <img  src="assets/checkbox.png" alt="">
+                        <h1 class="text-2xl font-bold">12</h1>
+                    </div>
+                    <div class="mr-1">
+                        <img src="assets/theme-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="flex mt-6 gap-3">
+            <!-- left side -->
+            <div class="w-3/4 bg-gray-100 rounded-lg p-4">
+                <!-- top -->
+                <div class="border-b border-dashed border-gray-300">
+                    <!-- top left side -->
+                 <div class="flex gap-3 mb-4 mt-2">
+                    <!-- t one -->
+                     <div class="bg-white flex items-center justify-around p-4 rounded-md w-1/4">
+                        <div class="w-12 h-12 flex justify-center items-center rounded-full bg-gray-200">
+                            <img src="assets/checkbox.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-gray-600">Task Assigned</p>
+                            <h1 class="text-3xl font-bold">06</h1>
+                        </div>
+                     </div>
+                     <!-- t two -->
+                      <div class="w-2/4 p-4 gap-3 rounded-md flex  items-center bg-gradient-to-r from-indigo-600 to-indigo-300">
+                        <div>
+                            <img src="assets/board.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-white">Discover Something <br> New Today!</p>
+                        </div>
+                      </div>
+                      <!-- t three -->
+                      <div class="bg-white flex items-center justify-around p-4 rounded-md w-1/4">
+                        <div class="w-12 h-12 flex justify-center items-center rounded-full bg-gray-200">
+                            <img src="assets/calender.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-gray-600">Fri</p>
+                            <h1 class="text-base font-bold">Feb 28 2025</h1>
+                        </div>
+                     </div>
+
+                 </div>
+                </div>
+                <!-- task cards -->
+                <div class="mt-4 grid grid-cols-3 gap-5">
+                    <!-- card 1 -->
+                     <div class="bg-white rounded-md p-3">
+                         <div class="border-b border-dashed border-gray-300">
+                            <p class="bg-gray-100 inline-block p-2 rounded-md">ShopEase</p>
+                            <h1 class="font-bold text-xl my-3">Fix Mobile Button Issue</h1>
+                            <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3"> Fixing the mobile button issue ensures better usability and a smoother user experience.</p>
+                         </div> 
+                         <div class="mt-2 flex justify-between items-center">
+                            <div>
+                                <h4 class="text-gray-500">Deadline</h4>
+                                <h2 class="font-semibold">28 March 2025</h2>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary">Completed</button>
+                            </div>
+                         </div>
+                     </div>
+                    <!-- card 2 -->
+                     <div class="bg-white rounded-md p-3">
+                         <div class="border-b border-dashed border-gray-300">
+                            <p class="bg-gray-100 inline-block p-2 rounded-md">CloudSync </p>
+                            <h1 class="font-bold text-xl my-3">Add Dark Mode</h1>
+                            <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3">Store the user's preference in localStorage, update CSS variables dynamically</p>
+                         </div> 
+                         <div class="mt-2 flex justify-between items-center">
+                            <div>
+                                <h4 class="text-gray-500">Deadline</h4>
+                                <h2 class="font-semibold">28 March 2025</h2>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary">Completed</button>
+                            </div>
+                         </div>
+                     </div>
+                    <!-- card 3 -->
+                     <div class="bg-white rounded-md p-3">
+                         <div class="border-b border-dashed border-gray-300">
+                            <p class="bg-gray-100 inline-block p-2 rounded-md">SwiftPay</p>
+                            <h1 class="font-bold text-xl my-3">Optimize  Home page </h1>
+                            <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3">Optimizing the home page improves speed and user experience.</p>
+                         </div> 
+                         <div class="mt-2 flex justify-between items-center">
+                            <div>
+                                <h4 class="text-gray-500">Deadline</h4>
+                                <h2 class="font-semibold">28 March 2025</h2>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary">Completed</button>
+                            </div>
+                         </div>
+                     </div>
+                    <!-- card 4 -->
+                     <div class="bg-white rounded-md p-3">
+                         <div class="border-b border-dashed border-gray-300">
+                            <p class="bg-gray-100 inline-block p-2 rounded-md">Meta</p>
+                            <h1 class="font-bold text-xl my-3">Add new emoji 🤲</h1>
+                            <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3">Debug using Chrome DevTools, Check for overlapping </p>
+                         </div> 
+                         <div class="mt-2 flex justify-between items-center">
+                            <div>
+                                <h4 class="text-gray-500">Deadline</h4>
+                                <h2 class="font-semibold">28 March 2025</h2>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary">Completed</button>
+                            </div>
+                         </div>
+                     </div>
+                    <!-- card 5 -->
+                     <div class="bg-white rounded-md p-3">
+                         <div class="border-b border-dashed border-gray-300">
+                            <p class="bg-gray-100 inline-block p-2 rounded-md">Google LLC</p>
+                            <h1 class="font-bold text-xl my-3">Integrate OpenAI API </h1>
+                            <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3">Integrating OpenAI API enhances automation and user experience.</p>
+                         </div> 
+                         <div class="mt-2 flex justify-between items-center">
+                            <div>
+                                <h4 class="text-gray-500">Deadline</h4>
+                                <h2 class="font-semibold">28 March 2025</h2>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary">Completed</button>
+                            </div>
+                         </div>
+                     </div>
+                    <!-- card 6 -->
+                     <div class="bg-white rounded-md p-3">
+                         <div class="border-b border-dashed border-gray-300">
+                            <p class="bg-gray-100 inline-block p-2 rounded-md">Glassdoar</p>
+                            <h1 class="font-bold text-xl my-3">Improve Job searching </h1>
+                            <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3">AI improves job searching with better recommendations.</p>
+                         </div> 
+                         <div class="mt-2 flex justify-between items-center">
+                            <div>
+                                <h4 class="text-gray-500">Deadline</h4>
+                                <h2 class="font-semibold">28 March 2025</h2>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary">Completed</button>
+                            </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+            <!-- Right side -->
+            <div class="w-1/4 bg-gray-100 rounded-lg">
+                <!-- top -->
+                <div class="flex flex-col border-b border-dashed border-gray-300">
+                    <!-- activity log -->
+                     <div class="flex justify-center gap-2 mt-8 mb-6">
+                        <img src="assets/activity.png" alt="">
+                        <h3 class="font-medium">Activity Log</h3>
+                     </div>
+                     <div class="flex justify-center mb-6">
+                        <button class="btn btn-primary w-2/4">Clear History</button>
+                     </div>
+                </div>
+                <!-- bottom -->
+                <div class="m-4 p-3 bg-white rounded-md">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="m-4 p-3 bg-white rounded-md">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
