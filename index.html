@@ -23,7 +23,7 @@
                 <div class="gap-3">
                     <div class="flex bg-white w-20 h-10 items-center justify-center rounded-lg">
                         <img  src="assets/checkbox.png" alt="">
-                        <h1 class="text-2xl font-bold">12</h1>
+                        <h1 id="checkbox-number" class="text-2xl font-bold">12</h1>
                     </div>
                     <div class="mr-1">
                         <img src="assets/theme-btn.png" alt="">
@@ -47,7 +47,7 @@
                         </div>
                         <div>
                             <p class="text-gray-600">Task Assigned</p>
-                            <h1 class="text-3xl font-bold">06</h1>
+                            <h1 id="task-number" class="text-3xl font-bold">6</h1>
                         </div>
                      </div>
                      <!-- t two -->
@@ -66,7 +66,7 @@
                         </div>
                         <div>
                             <p class="text-gray-600">Fri</p>
-                            <h1 class="text-base font-bold">Feb 28 2025</h1>
+                            <h1 id="" class="text-base font-bold"><span id="currentDate"></span></h1>
                         </div>
                      </div>
 
@@ -81,13 +81,13 @@
                             <h1 class="font-bold text-xl my-3">Fix Mobile Button Issue</h1>
                             <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3"> Fixing the mobile button issue ensures better usability and a smoother user experience.</p>
                          </div> 
-                         <div class="mt-2 flex justify-between items-center">
+                         <div class="mt-2 md:flex justify-between items-center">
                             <div>
                                 <h4 class="text-gray-500">Deadline</h4>
                                 <h2 class="font-semibold">28 March 2025</h2>
                             </div>
                             <div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button id="" class="btn btn-primary compelete-btn">Completed</button>
                             </div>
                          </div>
                      </div>
@@ -98,13 +98,13 @@
                             <h1 class="font-bold text-xl my-3">Add Dark Mode</h1>
                             <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3">Store the user's preference in localStorage, update CSS variables dynamically</p>
                          </div> 
-                         <div class="mt-2 flex justify-between items-center">
+                         <div class="mt-2 md:flex justify-between items-center">
                             <div>
                                 <h4 class="text-gray-500">Deadline</h4>
                                 <h2 class="font-semibold">28 March 2025</h2>
                             </div>
                             <div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button class="btn btn-primary compelete-btn">Completed</button>
                             </div>
                          </div>
                      </div>
@@ -115,7 +115,7 @@
                             <h1 class="font-bold text-xl my-3">Optimize  Home page </h1>
                             <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3">Optimizing the home page improves speed and user experience.</p>
                          </div> 
-                         <div class="mt-2 flex justify-between items-center">
+                         <div class="mt-2 md:flex justify-between items-center">
                             <div>
                                 <h4 class="text-gray-500">Deadline</h4>
                                 <h2 class="font-semibold">28 March 2025</h2>
@@ -132,13 +132,13 @@
                             <h1 class="font-bold text-xl my-3">Add new emoji 🤲</h1>
                             <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3">Debug using Chrome DevTools, Check for overlapping </p>
                          </div> 
-                         <div class="mt-2 flex justify-between items-center">
+                         <div class="mt-2 md:flex justify-between items-center">
                             <div>
                                 <h4 class="text-gray-500">Deadline</h4>
                                 <h2 class="font-semibold">28 March 2025</h2>
                             </div>
                             <div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button class="btn btn-primary compelete-btn">Completed</button>
                             </div>
                          </div>
                      </div>
@@ -149,7 +149,7 @@
                             <h1 class="font-bold text-xl my-3">Integrate OpenAI API </h1>
                             <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3">Integrating OpenAI API enhances automation and user experience.</p>
                          </div> 
-                         <div class="mt-2 flex justify-between items-center">
+                         <div class="mt-2 md:flex justify-between items-center">
                             <div>
                                 <h4 class="text-gray-500">Deadline</h4>
                                 <h2 class="font-semibold">28 March 2025</h2>
@@ -166,7 +166,7 @@
                             <h1 class="font-bold text-xl my-3">Improve Job searching </h1>
                             <p class="bg-gray-100 inline-block p-2 rounded-md text-gray-500 mb-3">AI improves job searching with better recommendations.</p>
                          </div> 
-                         <div class="mt-2 flex justify-between items-center">
+                         <div class="mt-2 md:flex justify-between items-center">
                             <div>
                                 <h4 class="text-gray-500">Deadline</h4>
                                 <h2 class="font-semibold">28 March 2025</h2>
@@ -204,5 +204,7 @@
     
 
     <script src="script/calender.js"></script>
+    <script src="script/utility.js"></script>
+    <script src="script/time.js"></script>
 </body>
 </html>

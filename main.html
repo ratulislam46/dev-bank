@@ -26,41 +26,53 @@
         </nav>
     </header>
     <main>
-        <section class="mt-12">
+        <section class="">
+            <h1 class="font-bold text-2xl text-center my-6">Blogs</h1>
             <!-- Question-1 -->
             <div class="bg-gray-100 p-6 rounded-md mb-6">
                 <div class="border-b border-dashed border-gray-300">
                     <h1 class="font-bold mb-4 text-lg">Question-1: What are the different ways to select an element in the DOM?</h1>
                 </div>
-                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam, perferendis similique corporis soluta modi sit dolor porro? Consequatur quibusdam dolorem ullam. Laudantium impedit voluptatem neque sit rem reiciendis iusto.</p>
+                <p class="mt-4 text-gray-600 text-lg">There are different ways to select of an element.... <br>
+                    1. document.getElementById("id"); 2. document.getElementsByClassName("class"); <br>  3. document.getElementsByTagName("tag"); 4. document.querySelector("selector"); <br> 5. document.querySelectorAll("selector");
+                </p>
             </div>
             <!-- Question-2 -->
             <div class="bg-gray-100 p-6 rounded-md mb-6">
                 <div class="border-b border-dashed border-gray-300">
                     <h1 class="font-bold mb-4 text-lg">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
                 </div>
-                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam, perferendis similique corporis soluta modi sit dolor porro? Consequatur quibusdam dolorem ullam. Laudantium impedit voluptatem neque sit rem reiciendis iusto.</p>
+                <p class="mt-4 text-gray-600 text-lg">(1) .innerHTML - Includes HTML tags. <br>
+                (2) .innerText - Only visible text, ignores HTML tags. <br>
+                (3) .textContent - All text within an element, including hidden text.
+            </p>
             </div>
             <!-- Question-3 -->
             <div class="bg-gray-100 p-6 rounded-md mb-6">
                 <div class="border-b border-dashed border-gray-300">
                     <h1 class="font-bold mb-4 text-lg">Question-3: What is event delegation in the DOM?</h1>
                 </div>
-                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam, perferendis similique corporis soluta modi sit dolor porro? Consequatur quibusdam dolorem ullam. Laudantium impedit voluptatem neque sit rem reiciendis iusto.</p>
+                <p class="mt-4 text-gray-600 text-lg">Event delegation is a techniue in JavaScript where instead of adding event listeners to multiple child elements,we add a single event listener to a parent element. This takes advantage of event bubbling, where events propagate from child elements up to their ancestors.</p>
             </div>
             <!-- Question-4 -->
             <div class="bg-gray-100 p-6 rounded-md mb-6">
                 <div class="border-b border-dashed border-gray-300">
                     <h1 class="font-bold mb-4 text-lg">Question-4: What is event bubbling in the DOM?</h1>
                 </div>
-                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam, perferendis similique corporis soluta modi sit dolor porro? Consequatur quibusdam dolorem ullam. Laudantium impedit voluptatem neque sit rem reiciendis iusto.</p>
+                <p class="mt-4 text-gray-600 text-lg">Event bubbling is behavior in te DOM. meaning they first execute on the target element and then move up through the parent elements until reaching the document object.</p>
             </div>
             <!-- Question-5 -->
             <div class="bg-gray-100 p-6 rounded-md mb-6">
                 <div class="border-b border-dashed border-gray-300">
                     <h1 class="font-bold mb-4 text-lg">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
                 </div>
-                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam, perferendis similique corporis soluta modi sit dolor porro? Consequatur quibusdam dolorem ullam. Laudantium impedit voluptatem neque sit rem reiciendis iusto.</p>
+                <p class="mt-4 text-gray-600 text-lg">(1) Create div element, Example: <br>
+                 let newElement = document.createElement("div");
+                <p class="mt-4 text-gray-600 text-lg">(2) add  the new div to the body, Example: <br>
+                 document.body.appendChild(newElement);
+                <p class="mt-4 text-gray-600 text-lg">(3) Create div element, Example: <br>
+                 newElement.remove();
+                </p>
             </div>
         </section>
     </main>
