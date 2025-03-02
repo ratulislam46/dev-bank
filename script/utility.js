@@ -24,12 +24,12 @@ document.addEventListener("DOMContentLoaded" , function(){
                 
             }
             
-            const currentDate = document.getElementById("current-date").innerText;
+            const currentTime = document.getElementById("current-time").innerText;
 
             const container = document.getElementById("activity-history");
             const div = document.createElement("div");
             div.innerHTML = `
-            <div class="m-4 p-3 bg-white rounded-md">You have completed the task at ${currentDate}
+            <div class="m-4 p-3 bg-white rounded-md">You have completed the task at ${currentTime}
 
             `
             container.appendChild(div)
