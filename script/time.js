@@ -1,3 +1,3 @@
 let today = new Date ();
-let formatteDate = today.toLocaleDateString();
+let formatteDate = today.toDateString();
 document.getElementById("currentDate").innerText = formatteDate;

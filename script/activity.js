@@ -10,3 +10,4 @@ document.getElementById("clear-history").addEventListener("click", function(even
     const details = document.getElementById("activity-history").classList.add('hidden')
     return details;
 })
+
